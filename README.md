@@ -1,1 +1,3 @@
 # InfoTech_04
+Simple Keylogger
+This Python code snippet is a simple keylogger using the `pynput` library to capture and log keystrokes to a file named `keylog.txt`. It initializes a global list to store keys and defines an `on_press` function to append pressed keys to this list, calling `write_to_file` to log them. The `write_to_file` function handles special keys like spaces and logs the keys to the file. The `on_release` function stops the listener when the Escape key is pressed. Finally, a `Listener` object starts listening for key events. This script must be used ethically, ensuring permission and compliance with legal regulations.
